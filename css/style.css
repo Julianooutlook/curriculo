@@ -4,7 +4,8 @@ body {
     font-family: "Libre Baskerville", serif;
     font-weight: 400;
     font-style: italic;
-    background-image: url(images/earth.jpg);
+    background-image: url({"curriculo"}/images/earth.jpg);
+    /*{“NOME DO REPOSITORIO”}/assets/imagens/foto.jpg*/
 }
 
 #container-curriculo {
