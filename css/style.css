@@ -1,0 +1,286 @@
+body {
+    padding: 0;
+    margin: 0px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+    background-image: url(/images/background.webp);
+}
+
+#container-curriculo {
+    display: flex;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+#subtitulo {
+    color: #FFF;
+}
+
+#container-cabecalho {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    color: #00008B;
+    margin-left: 48px;
+}
+
+header {
+    border: 2px solid;
+    background-color:#B0C4DE;
+    border-color: transparent;
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#tituloSubtitulo {
+    flex-direction: column;
+    padding: 8px;
+    font-size: 28px;
+}
+
+figcaption img {
+    width: 20vw;
+    border-radius: 8px 78px 10px 54px;
+}
+
+.tituloDosTextos {
+    font-size: 38px;
+    letter-spacing: 6px;
+}
+
+#objetivos {
+    background-color:#B0C4DE;
+    border: 2px solid;
+    /* line-height: 2.0; */
+    border-color: transparent;
+    border-radius: 8px;
+    margin-top: 8px;
+    padding-left: 8px;
+}
+
+#formacao {
+    background-color:#B0C4DE;
+    border: 2px solid;
+    line-height: 2.0;
+    border-color: transparent;
+    border-radius: 8px;
+    margin-top: 8px;
+    padding-left: 8px;
+}
+
+#experiencia {
+    background-color:#B0C4DE;
+    border: 2px solid;
+    line-height: 2.0;
+    border-color: transparent;
+    border-radius: 8px;
+    margin-top: 8px;
+    padding-left: 8px;
+}
+
+#sobreMim {
+    background-color:#B0C4DE;
+    border: 2px solid;
+    line-height: 2.0;
+    border-color: transparent;
+    border-radius: 8px;
+    padding-left: 8px;
+}
+
+#habilidades-sobreMim {
+    color: #00008B;
+    margin-right: 48px;   
+    display: flex;
+    flex-direction: column;
+    margin-top: 9px;
+}
+
+#habilidades-dev {
+    background-color:#B0C4DE;
+    border: 2px solid;
+    /* line-height: 2.0; */
+    border-color: transparent;
+    border-radius: 8px;
+    margin-top: 8px;
+    padding-left: 8px;
+}
+
+.habilidades {
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+#habilidades-dev h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-align: end;
+    align-content: center;
+}
+
+
+#habilidades-dev-html {
+    background-color:#B0C4DE;
+    border: 2px solid;
+    line-height: 2.0;
+    border-color: transparent;
+    border-radius: 8px;
+    margin-top: 8px;
+    padding-left: 8px;
+    box-shadow: inset 350px 0 0 rgba(5, 252, 5, 0.5);
+    letter-spacing: 6px;
+}
+
+#habilidades-dev-css {
+    background-color:#B0C4DE;
+    border: 2px solid;
+    line-height: 2.0;
+    border-color: transparent;
+    border-radius: 8px;
+    margin-top: 8px;
+    padding-left: 8px;
+    box-shadow: inset 300px 0 0 rgba(5, 252, 5, 0.5);
+    letter-spacing: 6px;
+}
+
+#habilidades-dev-js {
+    background-color:#B0C4DE;
+    border: 2px solid;
+    line-height: 2.0;
+    border-color: transparent;
+    border-radius: 8px;
+    margin-top: 8px;
+    padding-left: 8px;
+    box-shadow: inset 250px 0 0 rgba(0, 252, 0, 0.5);
+    letter-spacing: 6px;
+}
+
+footer {
+    background-color:#B0C4DE;
+    border: 2px solid;
+    border-color: transparent;
+    border-radius: 8px;
+    margin-top: 8px;
+    padding-left: 8px;
+    height: 63vh;
+}
+
+footer img {
+    margin-left: 7vw;
+    padding-top: 68px;
+}
+
+#lista-contatos {
+    list-style: none;
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+}
+
+[data-component="slideshow"] .slide {
+    display: none;
+}
+
+[data-component="slideshow"] .slide.active {
+    display: block;
+}
+
+/* Media Queries  */
+
+/* Estilos para dispositivos móveis */
+@media only screen and (min-width: 370px) and (max-width: 700px) {
+
+    figcaption img {
+        width: 32vw;
+    }
+    #subtitulo {
+        color: #FFF;
+    }
+    #container-curriculo {
+        flex-direction: column;
+        margin-right: 38px;
+        width: 100vw;    
+    }
+    #container-cabecalho {
+        margin-left: 0;
+    }
+    #habilidades-sobreMim {
+        padding: 0;
+        margin: 10px;
+    }
+    #habilidades-dev-html {
+        box-shadow: inset 240px 0 0 rgba(5, 252, 5, 0.5);
+        line-height: 0;
+    }
+    #habilidades-dev-css {
+        box-shadow: inset 220px 0 0 rgba(5, 252, 5, 0.5);
+        line-height: 0;
+    }
+    #habilidades-dev-js {
+        box-shadow: inset 190px 0 0 rgba(5, 252, 5, 0.5);
+        line-height: 0;
+    }
+    footer {
+        height: 38vh;
+    }
+    footer img {
+        padding-top: 0;
+        margin-left: 12vw;
+    }
+
+
+
+}
+
+/* Estilos para tablets */
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+
+    #subtitulo {
+        color: #FFF;
+    }
+    #container-cabecalho {
+        margin-left: 28px;
+    }
+    #habilidades-sobreMim {
+        
+    }
+    footer img {
+        margin: 8px;
+        width: 28vw;
+        padding-top: 8px;
+    }
+    footer {
+        height: 38vh;
+    }
+    #habilidades-dev-html {
+        box-shadow: inset 150px 0 0 rgba(5, 252, 5, 0.5);
+        line-height: 0;
+    }
+    #habilidades-dev-css {
+        box-shadow: inset 120px 0 0 rgba(5, 252, 5, 0.5);
+        line-height: 0;
+    }
+    #habilidades-dev-js {
+        box-shadow: inset 100px 0 0 rgba(5, 252, 5, 0.5);
+        line-height: 0;
+    }
+    #habilidades-dev {
+        line-height: 0;
+    }
+    #experiencia {
+        line-height: 1.2;
+        
+    }
+    #formacao {
+        line-height: 1.2;
+    }
+}
+
