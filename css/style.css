@@ -218,11 +218,12 @@ footer img {
     display: block;
 }
 
-/* Media Queries  */
-
 /* Estilos para dispositivos móveis */
 @media only screen and (min-width: 370px) and (max-width: 700px) {
 
+    body {
+        overflow-x: hidden;
+    }
     header {
         border-radius: 900% 8% 8px 8px;
     }
@@ -233,7 +234,6 @@ footer img {
 
     #container-curriculo {
         flex-direction: column;
-        display: flex;
         align-items: center;
         width: 84vw;
     }
@@ -246,9 +246,9 @@ footer img {
         font-size: 8vh;
     }
     #habilidades-sobreMim {
-        display: flex;
-        margin-left: 26vw;
-        width: 80vw;
+        margin-right: 0; 
+        margin-left: 13vw;
+        width: 85vw; 
     }
     .habilidades {
         margin: 0;
@@ -256,7 +256,6 @@ footer img {
         padding-top: 1px;
     }
     #habilidades-dev-html {
-        height: 4vh;
         background-color:#B0C4DE;
         border: 2px solid;
         border-color: transparent;
@@ -308,17 +307,16 @@ footer img {
         background-color:#B0C4DE;
         border: 2px solid;
         border-color: transparent;
-        border-radius: 40px 100% 800% 100%;
+        border-radius: 40px 20px 100px;
         margin-top: 8px;
-        padding-left: 8px;
-        height: 38vh;
+        height: 18vh;
     }
     footer img {
-        margin-left: 2vw;
         padding-top: 0;
         padding-bottom: 0;
         margin-bottom: 0;
-        width: 28vh;
+        width: 18vh;
+        padding-right: 80vw;
     }
 
 }
@@ -343,4 +341,6 @@ footer img {
         border-radius: 8px 8% 800% 8%;
     }
 }
+
+
 
