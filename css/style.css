@@ -221,34 +221,44 @@ footer img {
 /* Estilos para dispositivos móveis */
 @media only screen and (min-width: 370px) and (max-width: 700px) {
 
-    body {
-        overflow-x: hidden;
-    }
+
     header {
         border-radius: 900% 8% 8px 8px;
+        background-color: rgba(176,196,222, 0.473);
+        /* width: 150vw; */
     }
+    #objetivos,
+    #formacao,
+    #experiencia,
+    #sobreMim,
+    #habilidades-dev {
+        background-color: rgba(176,196,222, 0.473);
+    }
+
     #endereco {
         padding-top: 24vw;
         padding-left: 8vw;
+        color: #FFF;
     }
-
+    #container-cabecalho {
+        margin-left: 0;
+    }
     #container-curriculo {
         flex-direction: column;
         align-items: center;
-        width: 84vw;
+        width: 170%;
+        
     }
     #tituloSubtitulo {
-        font-size: 6vw;
-        padding-top: 8vw;
+        font-size: 12vw;
+        padding-top: 28vw;
     }
     #iniciais-nome {
-        padding: 8px;
         font-size: 8vh;
     }
     #habilidades-sobreMim {
-        margin-right: 0; 
-        margin-left: 13vw;
-        width: 85vw; 
+        margin: 0; 
+        width: 100%; 
     }
     .habilidades {
         margin: 0;
@@ -256,7 +266,7 @@ footer img {
         padding-top: 1px;
     }
     #habilidades-dev-html {
-        background-color:#B0C4DE;
+        background-color: rgba(176,196,222, 0.473);
         border: 2px solid;
         border-color: transparent;
         border-radius: 8px;
@@ -265,7 +275,7 @@ footer img {
     }
     
     #habilidades-dev-css {
-        background-color:#B0C4DE;
+        background-color: rgba(176,196,222, 0.473);
         border: 2px solid;
         border-color: transparent;
         border-radius: 8px;
@@ -275,7 +285,7 @@ footer img {
     }
     
     #habilidades-dev-js {
-        background-color:#B0C4DE;
+        background-color: rgba(176,196,222, 0.473);
         border: 2px solid;
         border-color: transparent;
         border-radius: 8px;
@@ -285,7 +295,7 @@ footer img {
     }
     
     #habilidades-dev-github {
-        background-color:#B0C4DE;
+        background-color: rgba(176,196,222, 0.473);
         border: 2px solid;
         border-color: transparent;
         border-radius: 8px;
@@ -295,7 +305,7 @@ footer img {
     }
     
     #habilidades-dev-node {
-        background-color:#B0C4DE;
+        background-color: rgba(176,196,222, 0.473);
         border: 2px solid;
         border-color: transparent;
         border-radius: 8px;
@@ -304,7 +314,7 @@ footer img {
         box-shadow: inset 55px 0 0 rgba(41, 3, 255, 0.5);
     }
     footer {
-        background-color:#B0C4DE;
+        background-color: rgba(176,196,222, 0.473);
         border: 2px solid;
         border-color: transparent;
         border-radius: 40px 20px 100px;
@@ -341,6 +351,7 @@ footer img {
         border-radius: 8px 8% 800% 8%;
     }
 }
+
 
 
 
