@@ -99,7 +99,7 @@ header {
 }
 
 #habilidades-sobreMim {
-    color: #00008B;
+    /*color: #00008B;*/
     margin-right: 48px;   
     display: flex;
     flex-direction: column;
