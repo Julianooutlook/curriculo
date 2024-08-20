@@ -95,6 +95,7 @@ header {
     border-color: transparent;
     border-radius: 8px;
     padding-left: 8px;
+    color: #000000;
 }
 
 #habilidades-sobreMim {
@@ -103,6 +104,7 @@ header {
     display: flex;
     flex-direction: column;
     margin-top: 9px;
+    color: #000000;
 }
 
 #habilidades-dev {
