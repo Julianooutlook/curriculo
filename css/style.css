@@ -185,6 +185,12 @@ header {
     letter-spacing: 6px;
 }
 
+#paragrafoFooter {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 footer {
     background-color:#B0C4DE;
     border: 2px solid;
@@ -197,9 +203,7 @@ footer {
 
 footer img {
     margin-left: 5vw;
-    padding: 68px;
-    width: 8vw;
-
+    width: 15vw;
 }
 
 #lista-contatos {
@@ -219,7 +223,8 @@ footer img {
 }
 
 /* Estilos para dispositivos móveis */
-@media only screen and (min-width: 370px) and (max-width: 700px) {
+
+@media only screen and (min-width: 370px) and (max-width: 699px) {
 
 
     header {
@@ -238,7 +243,8 @@ footer img {
     #endereco {
         padding-top: 24vw;
         padding-left: 8vw;
-        color: #FFF;
+        font-weight: bold;
+        color: #fff;
     }
     #container-cabecalho {
         margin-left: 0;
@@ -313,42 +319,71 @@ footer img {
         padding-left: 8px;
         box-shadow: inset 55px 0 0 rgba(41, 3, 255, 0.5);
     }
+
+    #paragrafoFooter {
+        display: flex;
+        margin-left: 28px;
+        font-size: 68px;
+        padding-left: 42px;
+    }
+
     footer {
+        display: flex;
+        align-items: center;
+        align-self: center;
+        justify-content: flex-start;
         background-color: rgba(176,196,222, 0.473);
         border: 2px solid;
         border-color: transparent;
         border-radius: 40px 20px 100px;
         margin-top: 8px;
-        height: 18vh;
+        width: 98%;
+        height: auto;
+        
     }
-    footer img {
-        padding-top: 0;
-        padding-bottom: 0;
-        margin-bottom: 0;
-        width: 18vh;
-        padding-right: 80vw;
+    .slide img {
+        display: flex;
+        padding-left: 50%;
+        width: 48vw;
+        
     }
 
 }
 
 /* Estilos para tablets */
-@media only screen and (min-width: 700px) and (max-width: 1024px) {
+@media only screen and (min-width: 701px) and (max-width: 1024px) {
 
     #container-curriculo {
         display: flex;
-        flex-direction: column;
     }
+
+    #container-cabecalho {
+        display: flex;
+        width: 50%;
+
+    }
+
     #habilidades-sobreMim {
-        width: 90vw;
-        margin-right: 24vh;
+      
+    }
+
+    #endereco {
+        font-size: 20px;
+        color: #050e36;
+        margin-left: 18%;
     }
     #iniciais-nome {
-        margin: 8vw;
-        font-size: 18vw;
-        padding: 18px;
+        font-size: 70px;
+        padding: 10px;
+    }
+
+    #subtitulo {
+        font-size: 20px;
     }
     footer {
         border-radius: 8px 8% 800% 8%;
+        display: flex;
+        
     }
 }
 
